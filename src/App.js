@@ -6,9 +6,9 @@ import ExampleStateEmail from './ExampleStateEmail';
 export default function App() {
   return (
     <>
-      <h1>Example Components</h1>
+      <h1>Example: Components</h1>
       <ExampleComponents />
-      <h1>Example Props</h1>
+      <h1>Example: Props</h1>
       <ExampleProps
         name="Lukas"
         age={37}
@@ -25,9 +25,9 @@ export default function App() {
           zipCode: 7890,
         }}
       />
-      <h1>Example StateCounter</h1>
+      <h1>Example: State Counter</h1>
       <ExampleStateCounter />
-      <h1>Example StateEmail</h1>
+      <h1>Example: State Email</h1>
       <ExampleStateEmail />
     </>
   );
