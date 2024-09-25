@@ -1,19 +1,28 @@
+import ExampleArraysOfObjects from './ExampleArraysOfObjects';
+import ExampleChildrenProps from './ExampleChildrenProps';
 import ExampleClassToFunctionClass from './ExampleClassToFunction';
 import ExampleComponents from './ExampleComponents';
 import ExampleConditionalRendering from './ExampleConditionalRendering';
+import ExampleControlledComponentCheckbox from './ExampleControlledComponentCheckbox';
+import ExampleDataFetching from './ExampleDataFetching';
 import ExampleDestructuringProps from './ExampleDestructuringProps';
 import ExampleFormsWithControlledComponents from './ExampleFormsWithControlledComponents';
 import ExampleLiftingStateUp from './ExampleLiftingStateUp';
 import ExampleMappingOverArrays from './ExampleMappingOverArrays';
 import ExampleProps from './ExampleProps';
+import ExamplePropTypes from './ExamplePropTypes';
+import ExampleReactAntiPatterns from './ExampleReactAntiPatterns';
 import ExampleStateCounter from './ExampleStateCounter';
 import ExampleStateEmail from './ExampleStateEmail';
 import ExampleStateNotSynchronous from './ExampleStateNotSynchronous';
 import ExampleStylingOptions from './ExampleStylingOptions';
+import ExampleUseEffect from './ExampleUseEffect';
 
 export default function App() {
   return (
     <>
+      <h1>Example: Data Fetching</h1>
+      <ExampleDataFetching />
       <h1>Example: Components</h1>
       <ExampleComponents />
       <h1>Example: Props</h1>
@@ -61,6 +70,18 @@ export default function App() {
             'https://api.memegen.link/images/buzz/memes/memes_everywhere.png?width=400',
         }}
       />
+      <h1>Example: Children Props</h1>
+      <ExampleChildrenProps />
+      <h1>Example: Prop Types</h1>
+      <ExamplePropTypes />
+      <h1>Example: React Antipatterns</h1>
+      <ExampleReactAntiPatterns />
+      <h1>Example: Controlled Component Checkbox</h1>
+      <ExampleControlledComponentCheckbox />
+      <h1>Example: Arrays Of Objects</h1>
+      <ExampleArraysOfObjects />
+      <h1>Example: UseEffect</h1>
+      <ExampleUseEffect />
       <br />
       <br />
       <br />
