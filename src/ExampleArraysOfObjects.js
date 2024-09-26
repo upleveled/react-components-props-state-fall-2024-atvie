@@ -38,7 +38,9 @@ export default function ExampleArraysOfObjects() {
       })}
       <button
         onClick={() => {
-          const newUserId = users[users.length - 1].id + 1;
+          const newUserId =
+            users.length === 0 ? 1 : users[users.length - 1].id + 1;
+
           const newUser = {
             gender: 'female',
             name: {
@@ -68,6 +70,7 @@ export default function ExampleArraysOfObjects() {
           // 3. set state to the copy of the old array
           // setUsers(newUsers);
           setUsers([...users, newUser]);
+          console.log(users);
         }}
       >
         Add single User

@@ -40,7 +40,7 @@ export default function ExampleDataFetching() {
         :  */}
       {users.map((user) => {
         return (
-          <div key={`user-${user.id}`}>
+          <div key={`user-${user.uuid}`}>
             <img src={user.picture.medium} alt="user profile pic" width={100} />
             <h2>
               {user.name.first} {user.name.last}
