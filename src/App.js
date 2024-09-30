@@ -5,15 +5,21 @@ import ExampleComponents from './ExampleComponents';
 import ExampleConditionalRendering from './ExampleConditionalRendering';
 import ExampleControlledComponentCheckbox from './ExampleControlledComponentCheckbox';
 import ExampleDataFetching from './ExampleDataFetching';
+import ExampleDataModeling from './ExampleDataModeling';
+import ExampleDerivingState from './ExampleDerivingState';
 import ExampleDestructuringProps from './ExampleDestructuringProps';
+import ExampleExtraStateVariable from './ExampleExtraStateVariable';
 import ExampleFormsWithControlledComponents from './ExampleFormsWithControlledComponents';
 import ExampleLiftingStateUp from './ExampleLiftingStateUp';
 import ExampleMappingOverArrays from './ExampleMappingOverArrays';
+import ExamplePropDrilling from './ExamplePropDrilling';
+import ExamplePropDrillingChildrenProps from './ExamplePropDrillingChildrenProps';
 import ExampleProps from './ExampleProps';
 import ExamplePropTypes from './ExamplePropTypes';
 import ExampleReactAntiPatterns from './ExampleReactAntiPatterns';
 import ExampleStateCounter from './ExampleStateCounter';
 import ExampleStateEmail from './ExampleStateEmail';
+import ExampleStateManagement from './ExampleStateManagement';
 import ExampleStateNotSynchronous from './ExampleStateNotSynchronous';
 import ExampleStylingOptions from './ExampleStylingOptions';
 import ExampleUseEffect from './ExampleUseEffect';
@@ -82,6 +88,18 @@ export default function App() {
       <ExampleArraysOfObjects />
       <h1>Example: UseEffect</h1>
       <ExampleUseEffect />
+      <h1>Example: Data Modeling</h1>
+      <ExampleDataModeling />
+      <h1>Example: Extra State Variable</h1>
+      <ExampleExtraStateVariable />
+      <h1>Example: Deriving State</h1>
+      <ExampleDerivingState />
+      <h1>Example: Prop Drilling</h1>
+      <ExamplePropDrilling />
+      <h1>Example: Children Prop</h1>
+      <ExamplePropDrillingChildrenProps />
+      <h1>Example: State Management</h1>
+      <ExampleStateManagement />
       <br />
       <br />
       <br />
